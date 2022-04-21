@@ -1,0 +1,2 @@
+# boolean
+Boolean flag example
