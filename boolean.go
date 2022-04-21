@@ -16,6 +16,7 @@ const (
 	ColorReset        = "\u001b[0m"
 )
 
+// colorize used to color the command line text output by reading the command line flag
 func colorize(color Color, message string) {
 	fmt.Println(string(color), message, string(ColorReset))
 }
